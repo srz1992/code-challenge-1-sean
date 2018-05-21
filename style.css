@@ -1,0 +1,15 @@
+.colorDiv {
+    height: 100px;
+    width: 500px;
+    background-color: red;
+    margin: 30px;
+}
+
+.yellowDiv {
+    background-color: yellow !important;
+}
+
+p{
+    padding-top: 15px;
+    padding-left: 15px;
+}
