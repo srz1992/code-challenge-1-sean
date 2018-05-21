@@ -42,7 +42,10 @@ console.log(this.closest('div').classList.contains("colorDiv"));
 }
 
 
-// only every other div will toggle for some reason
+// only every other div will toggle for some reason. when I look in the developer tools the buttons are all
+// interacting with the DOM but for every other it won't remove the class for odd-(or maybe it was even)
+// numbered divs
+
 // function swapColor(){
 //     // let element = $(this).closest('div');
 //     // element.toggleClass("yellowDiv");
